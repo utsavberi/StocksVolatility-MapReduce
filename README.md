@@ -3,8 +3,7 @@ Used Mapreduce on a Hadoop environment at CCR to compute the monthly volatility 
 
 ##Calculate Stock Volatility of Monthly Rate of Return:
 
-    xi = Monthly Rate of Return = (Month end adjusted close price – Month beginning adjusted
-close price) / (Monthly beginning adjusted close price)
+    xi = Monthly Rate of Return = (Month end adjusted close price – Month beginning adjusted close price) / (Monthly beginning adjusted close price)
 
     volatility =sqrt((1/n)(summ(xi-xb)^2)), xb = (1/n)summ(xi)
 
